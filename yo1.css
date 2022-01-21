@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Common */
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+}
+.clear{
+    clear: both;
+}
+.df-ct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 0 118px;
+
+}
+.mr-125{
+    margin-right: 125px;
+}
+.bb-solid{
+    border-bottom: 1px solid #eee;
+}
+.td-none{
+    text-decoration: none;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+/* Main */
+header{
+    max-height: 130px;
+    width: 100%;
+}
+nav{
+    background: orangered;
+    min-height: 38px;
+    width: 100%;
+    margin-bottom: 24px;
+
+}
+.header-nav{
+    padding: 0 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav>ul>li>a{
+    color: #fff;
+}
+nav ul li:hover{
+    cursor: pointer;
+    background: #055699;
+}
+nav li a{
+    text-decoration: none;
+    line-height: 38px;
+}
+nav li a .icon{
+    font-size: 12px;
+}
+/* ------Hover nav----------- */
+nav li{
+    position: relative;
+}
+nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+nav .subnav a{
+    color: #000;
+    background: #fff;
+    display: block;
+    padding: 0 12px;
+    min-width: 210px;
+    line-height: 38px;
+}
+nav .subnav a:hover{
+    color: #1f7acf;
+    background-color: #e0e1e9;
+}
+nav li:hover .subnav{
+    display: block;
+}
+/* --------slide-right------------- */
+.slide{
+    min-height: 1668px;
+}
+.slide-left{
+    max-width: calc(1668px - 260px);
+    height: 2120px;
+    background-color: #DDD;
+}
+.slide-right{
+    max-width: 260px;
+    height: 1000px;
+    background-color: #fff;
+    float: right;
+}
+.content-header{
+    background-color: orangered;
+    height: 36px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 7px 7px 0px 0px;
+}
+.content-header i{
+    line-height: 36px;
+    font-size: 20px;
+    padding: 5px;
+}
+.content-main{
+    border: 1px solid #eee;
+}
+.content-main1{
+    padding: 10px 14px;
+}
+.content-main1 a{
+    font-size: 14px;
+    color: rgb(49, 47, 47);
+}
+.content-main1 p{
+    margin-top: 8px;
+    font-size: 12px;
+    color: rgb(126, 125, 125);
+}
+.danhmuctainguyen .content-main2 i{
+    color: yellow;
+}
+.danhmuctainguyen .content-main2:hover a{
+    color: #1f7acf;
+}
+.lienket img{
+    max-width: 260px;
+    width: 100%;
+    height: 59px;
+}
+.hoctructuyen img{
+    max-width: 260px;
+    width: 100%;
+}
+.tienich{
+
+}
+.tienich .content-main{
+    height: 70px;
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #999;
+}
+.tienich .content-main .tracuu{
+    width: 235px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 15px 0;
+}
+footer{
+    height: 260px;
+    width: 100%;
+    background: #eee;
+}
+.padding{
+    padding: 18px 0;
+}
+footer .info h3, footer > .info > p > a{
+    color: #D7004D;
+}
+footer h3{
+    padding: 14px 0;
+}
+footer .info p{
+    margin-bottom: 8px;
+}
+.footer-solid{
+    border-bottom: 1px solid #007efe;
+    padding: 20px 0;
+    padding-top: 130px;
+}
+.copyright{
+    padding: 20px 0;
+}
+.copyright span{
+    float: right;
+}
+footer .ketnoi , .info{
+    float: left;
+    width: 50%;
+}
+.ketnoi p{
+    padding: 14px 0;
+    font-size: 20px;
+}
+.ketnoi .icon-lienket{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.ketnoi .icon-lienket:hover{
+    color: rgba(0, 0, 0, 0.5);
+}
